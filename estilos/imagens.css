@@ -1,0 +1,90 @@
+#section-img {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#bacon {
+    width: 980px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+#monstruoso-vegan {
+    width: 980px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+#monstruoso {
+    width: 980px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+#xbacon {
+    width: 980px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+#xsalada {
+    width: 980px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+#xvegan {
+    width: 980px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+#bacon:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+#monstruoso-vegan:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+#monstruoso #xbacon:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+#xsalada:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+#xvegan:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+#section-img img.primeira {
+    opacity: 1;
+}

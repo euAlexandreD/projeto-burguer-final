@@ -1,0 +1,54 @@
+
+#img-final {
+    width: 100%;
+    height: 630px;
+}
+
+#section-final {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+
+#celular {
+    height: 550px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#h1-baixe-o-app {
+    width: 700px;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 130px;
+}
+
+#section-final-dois {
+    display: flex;
+    background-color: white;
+}
+
+#img-apple {
+    width: 200px;
+    height: 70px;
+    margin-left: 800px;
+}
+
+#img-google {
+    width: 200px;
+    height: 70px;
+}
+
+#final-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid white;
+}
+
+#last-logo {
+    height: 150px;
+    margin-left: 12px;
+    cursor: pointer;
+}

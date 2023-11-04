@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/Logo_de_Hamburgueria_Artesanal-removebg-preview.png">
+    <link rel="stylesheet" href="/estilos/padrao.css">
+    <link rel="stylesheet" href="/estilos/index.css">
+    <link rel="stylesheet" href="/estilos/imagens.css">
+    <link rel="stylesheet" href="/estilos/meiodapagina.css">
+    <link rel="stylesheet" href="/estilos/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet">
+    <title>Meu Hamburguer</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navigation-menu">
+            <img id="first-logo" src="/img/Logo_de_Hamburgueria_Artesanal-removebg-preview.png" alt="Logo 
+            Hamburgueria" href="">
+
+            <section id="section-one">
+                <a href="">Cardápio</a>
+                <a href="">Bebidas</a>
+                <a href="">Meus pedidos</a>
+                <a href="">Quem somos</a>
+            </section>
+
+            <section id="section-two">
+                <p id="informative">Ainda não possui cadastro? Cadastre-se agora mesmo</p>
+                <button onclick="cadastrar()" id="button-cadastro">Cadastro</button>
+                <button onclick="logar()" id="button-login">Login</button>
+            </section>
+
+            <section id="section-cadastro">
+                <input id="input-nome" type="text" placeholder="Nome">
+                <input id="input-sobrenome" type="text" placeholder="Sobrenome">
+                <input id="input-email" type="text" placeholder="Email">
+                <input id="input-senha" type="password" placeholder="Senha">
+                <input id="input-repita-senha" type="password" placeholder="Repita a Senha">
+                <button id="button-confirmar">Cadastar</button>
+                <button onclick="sairDoCadastro()" id="button-sair">Sair</button>
+            </section>
+
+            <section id="section-login">
+                <input id="input-email-login" type="text" placeholder="Email">
+                <input id="input-senha-login" type="password" placeholder="Senha">
+                <button id="button-logar">Login</button>
+                <button onclick="sairDoLogin()" id="button-sair-login">Sair</button>
+            </section>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="section-img">
+            <img id="bacon" src="/img/hambrurguer 1.jpg" alt="Bacon">
+            <img id="monstruoso-vegan" src="/img/hambrurguer 2.jpg" alt="Monster Vegano">
+            <img id="monstruoso" src="/img/hambrurguer 3.jpg" alt="Monstruoso">
+            <img id="xbacon" src="/img/hambrurguer 4.jpg" alt="X-Bacon">
+            <img id="xsalada" src="/img/hambrurguer 5.jpg" alt="X-Xalada">
+            <img class="primeira" id="xvegan" src="/img/hambrurguer 6.jpg" alt="X-Vegano">
+        </section>
+
+        <section id="section-three">
+            <button id="button-pedido">Clique aqui e faça seu pedido!!</button>
+        </section>
+
+        <section id="section-pesquisa">
+
+            <h1 id="ver-restaurantes">Restaurantes Próximos a você</h1>
+            <input id="input-pesquisa" type="text" name="" id="input-pesquisa" placeholder="Digite aqui">
+            <h2 id="h2">Ou</h2>
+            <h2 id="outro-h2">Encontre o Brazinão mais próximo de você</h2>
+            <p id="paragrafo-da-pesquisa">Preencha seu endereço no campo acima ou busque por restaurantes próximos a você (lembre-se de ativar sua localização no navegador caso esteja desativada).</p>
+            <button id="buscar-restaurantes">Buscar Restaurantes</button>
+
+        </section>
+
+        <section id="section-img-final">
+            <img id="img-final" src="/img/coma como um rei.png" alt="">
+
+        </section> 
+
+        <footer id="section-final">
+            <img id="celular" src="/img/Todo Dia Um Burger em Promoção Preto Iluminado Story do Instagram (2).gif" alt="celular">
+            <h1 id="h1-baixe-o-app">BAIXE NOSSO APP E TENHA O BRAZINÃO NA PALMA DE SUA MÃO!</h1>
+        </footer>
+
+        <footer id="section-final-dois">
+            <img id="img-apple" src="/img/dowload apple.png" alt="apple store dowload">
+            <img id="img-google" src="/img/dowload android.png" alt="googleplay dowload">
+        </footer>
+
+        <footer id="final-footer">
+            <img id="last-logo" src="/img/Logo_de_Hamburgueria_Artesanal-removebg-preview.png" alt="">
+            <br>
+            <a href="">APP BRAZINÃO</a>
+            <a href="">Sobre o BZ</a>
+            <a href="">Trabalhe conosco</a>
+            <a href="">Fale conosco</a>
+            <a href="">Seja um franqueado</a>
+            <a href="">Relações com investidores</a>
+        </footer>
+
+        <footer id="rodape">
+            <h1>Compartilhe algo delicioso</h1>
+        </footer>
+
+    </main>
+    <script src="/dinamismo/index.js"></script>
+</body>
+
+</html> 

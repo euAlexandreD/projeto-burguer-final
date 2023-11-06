@@ -12,7 +12,7 @@
 
 #celular {
     height: 550px;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 20px;
 }
 
@@ -32,12 +32,14 @@
 #img-apple {
     width: 200px;
     height: 70px;
-    margin-left: 800px;
+    margin-left: 1000px;
 }
 
 #img-google {
     width: 200px;
     height: 70px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 #final-footer {

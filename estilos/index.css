@@ -17,7 +17,7 @@ body::before{
 
 #first-logo {
     height: 150px;
-    margin-left: 12px;
+    margin-left: 30px;
     cursor: pointer;
     
 }
@@ -29,18 +29,18 @@ body::before{
 
 #section-one{
     display: flex;
-    margin-left: 320px;
+    margin-left: 400px;
     margin-top: 100px;
     justify-content: center;
 }
 
 
 a {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     margin-top: 40px;
-    margin-right: 30px;
+    margin-right: 80px;
 }
 
 #section-two {
@@ -50,10 +50,10 @@ a {
 }
 
 #button-login {
-    width: 100px;
-    height: 20px;
+    width: 130px;
+    height: 35px;
     background-color: red;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     color: white;
     font-size: 15px;
@@ -67,22 +67,32 @@ a {
     transition: 500ms linear;
 }
 
+#button-login:active {
+    background-color: blue;
+}
 
 #informative {
-    font-size: 12px;
+    font-size: 18px;
     color: white;
-    width: 100px;
+    width: 150px;
     margin-top: 10px;
     text-align: left;
     margin-bottom: 7px;
 }
 
+#informative:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
+
 #button-cadastro {
-    width: 100px;
-    height: 20px;
+    width: 130px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     background-color: red;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -94,7 +104,9 @@ a {
     transition: 500ms linear;
 }
 
-
+#button-cadastro:active {
+    background-color: blue;
+}
 
 button:hover {
     opacity: 0.6;
